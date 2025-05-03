@@ -1,0 +1,24 @@
+# Git ignore rules 
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+ENV/
+.fake-job-detection/
+
+# Environment variables
+.env
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Model files
+*.pkl
+*.joblib
